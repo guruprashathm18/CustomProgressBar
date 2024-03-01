@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF4F4F</color>
+    <color name="low_battery_color">#FF5722</color>
+    <color name="medium_battery_color">#0BACA9</color>
+    <color name="full_battery_color">#3FF3F0</color>
+    <color name="light_blue">#AACCFF</color>
+    <color name="light_red">#F7CAC9</color>
+</resources>
+
