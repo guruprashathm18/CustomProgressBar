@@ -35,11 +35,6 @@ public class MainActivity extends AppCompatActivity {
         progressBar3 = (ProgressBar) findViewById(R.id.progressBar3);
         button1 = (Button) findViewById(R.id.add);
         button2 = (Button) findViewById(R.id.sub);
-
-
-
-
-
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
