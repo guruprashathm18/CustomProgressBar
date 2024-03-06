@@ -15,6 +15,19 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+    // Specifies one flavor dimension.
+    productFlavors {
+        create("demo") {
+            // Assigns this product flavor to the "version" flavor dimension.
+            // If you are using only one dimension, this property is optional,
+            // and the plugin automatically assigns all the module's flavors to
+            // that dimension.
+            applicationIdSuffix = ".demo"
+        }
+        create("full") {
+            applicationIdSuffix = ".full"
+        }
+    }
 
     buildTypes {
         release {
